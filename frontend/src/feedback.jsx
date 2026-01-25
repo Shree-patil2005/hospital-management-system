@@ -19,7 +19,7 @@ export default function Feedback() {
     if (rating === 0) return alert("Please select a star rating!");
 
     try {
-      const res = await fetch("http://localhost:5000/api/feedback/add", {
+      const res = await fetch("https://hospital-management-system-0s9h.onrender.com/api/feedback/add", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ ...formData, rating })

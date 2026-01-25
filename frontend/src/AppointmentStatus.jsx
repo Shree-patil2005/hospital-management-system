@@ -7,7 +7,7 @@ export default function AppointmentStatus() {
 
   // Logic: Fetch data from the backend API on component mount
   useEffect(() => {
-    fetch("http://localhost:5000/api/appointments")
+    fetch("https://hospital-management-system-0s9h.onrender.com/api/appointments")
       .then((res) => res.json())
       .then((data) => setAppointments(data))
       .catch((err) => console.log("Error fetching data:", err));

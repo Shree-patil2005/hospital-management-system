@@ -22,7 +22,7 @@ export default function PatientDashboard() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await fetch("http://localhost:5000/api/appointments/book", {
+      const res = await fetch("https://hospital-management-system-0s9h.onrender.com/api/appointments/book", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData)

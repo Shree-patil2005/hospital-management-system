@@ -18,8 +18,8 @@ export default function Patient() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const url = isSignup
-      ? "http://localhost:5000/api/patient/signup"
-      : "http://localhost:5000/api/patient/login";
+      ? "https://hospital-management-system-0s9h.onrender.com/api/patient/signup"
+      : "https://hospital-management-system-0s9h.onrender.com/api/patient/login";
 
     try {
       const response = await fetch(url, {
