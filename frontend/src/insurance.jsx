@@ -31,7 +31,7 @@ export default function Insurance() {
     }
   };
 
-  // Consistent Sidebar Items
+  
   const navItems = [
     { label: "Book", icon: "📅", path: "/patient-dashboard" },
     { label: "Status", icon: "📋", path: "/appointment-status" },
@@ -43,7 +43,7 @@ export default function Insurance() {
   return (
     <div className="min-h-screen flex flex-col md:flex-row bg-slate-50">
       
-      {/* 1. Sidebar Navigation */}
+      
       <aside className="hidden md:flex w-72 bg-emerald-800 text-white p-6 shadow-2xl flex-col shrink-0">
         <div className="mb-10 text-center">
           <h2 className="text-xl font-black uppercase tracking-tighter">Patil Bhandu</h2>
@@ -75,16 +75,16 @@ export default function Insurance() {
         </button>
       </aside>
 
-      {/* 2. Main Content Area */}
+      
       <div className="flex-1 flex flex-col">
         
-        {/* Mobile Header */}
+        
         <header className="bg-white shadow-sm p-4 flex justify-between items-center border-b border-slate-100 md:hidden">
           <h1 className="font-black text-emerald-800 uppercase tracking-tight">Insurance</h1>
           <button onClick={() => navigate("/")} className="text-xs font-bold text-red-600">EXIT</button>
         </header>
 
-        {/* Mobile Horizontal Menu */}
+        
         <nav className="md:hidden bg-white border-b flex overflow-x-auto p-2 gap-2 scrollbar-hide">
           {navItems.map((item) => (
             <button
@@ -101,7 +101,7 @@ export default function Insurance() {
           ))}
         </nav>
 
-        {/* Form Section */}
+        
         <main className="grow flex items-center justify-center p-4 md:p-12">
           <div className="w-full max-w-xl">
             <div className="bg-white shadow-2xl rounded-3xl overflow-hidden border border-slate-100">

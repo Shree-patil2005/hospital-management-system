@@ -29,7 +29,7 @@ export default function OrderMedicine() {
     }
   };
 
-  // Consistent Sidebar Items
+  
   const navItems = [
     { label: "Book", icon: "📅", path: "/patient-dashboard" },
     { label: "Status", icon: "📋", path: "/appointment-status" },
@@ -41,7 +41,7 @@ export default function OrderMedicine() {
   return (
     <div className="min-h-screen flex flex-col md:flex-row bg-slate-50">
       
-      {/* 1. Sidebar (Consistent with other pages) */}
+      
       <aside className="hidden md:flex w-72 bg-emerald-800 text-white p-6 shadow-2xl flex-col shrink-0">
         <div className="mb-10 text-center">
           <h2 className="text-xl font-black uppercase tracking-tighter">Patil Bhandu</h2>
@@ -73,10 +73,10 @@ export default function OrderMedicine() {
         </button>
       </aside>
 
-      {/* 2. Main Content Area */}
+      
       <div className="flex-1 flex flex-col">
         
-        {/* Mobile Navigation */}
+        
         <header className="bg-white shadow-sm p-4 flex justify-between items-center border-b border-slate-100 md:hidden">
           <h1 className="font-black text-emerald-800 uppercase tracking-tight">Pharmacy</h1>
           <button onClick={() => navigate("/")} className="text-xs font-bold text-red-600">EXIT</button>
@@ -98,12 +98,12 @@ export default function OrderMedicine() {
           ))}
         </nav>
 
-        {/* Form Section */}
+        
         <main className="grow flex items-center justify-center p-4 md:p-12">
           <div className="w-full max-w-lg">
             <div className="bg-white shadow-2xl rounded-3xl overflow-hidden border border-slate-100">
               
-              {/* Green Header Banner */}
+              
               <div className="bg-emerald-600 p-6 text-white text-center">
                 <h3 className="text-2xl font-black uppercase">Order Medicine</h3>
                 <p className="text-emerald-100 text-xs font-bold mt-1 uppercase tracking-widest">Fast Delivery to your doorstep</p>

@@ -5,7 +5,7 @@ export default function AppointmentStatus() {
   const navigate = useNavigate();
   const [appointments, setAppointments] = useState([]);
 
-  // Logic: Fetch data from the backend API on component mount
+  
   useEffect(() => {
     fetch("https://hospital-management-system-0s9h.onrender.com/api/appointments")
       .then((res) => res.json())
@@ -13,7 +13,7 @@ export default function AppointmentStatus() {
       .catch((err) => console.log("Error fetching data:", err));
   }, []);
 
-  // Consistent Sidebar Items
+  
   const navItems = [
     { label: "Book", icon: "📅", path: "/patient-dashboard" },
     { label: "Status", icon: "📋", path: "/appointment-status" },
@@ -25,7 +25,7 @@ export default function AppointmentStatus() {
   return (
     <div className="min-h-screen flex flex-col md:flex-row bg-slate-50">
       
-      {/* 1. Sidebar - Same as Dashboard */}
+      
       <aside className="hidden md:flex w-72 bg-emerald-800 text-white p-6 shadow-2xl flex-col shrink-0">
         <div className="mb-10 text-center">
           <h2 className="text-xl font-black uppercase tracking-tighter">Patil Bhandu</h2>
@@ -57,16 +57,16 @@ export default function AppointmentStatus() {
         </button>
       </aside>
 
-      {/* 2. Main Content Area */}
+      
       <div className="flex-1 flex flex-col">
         
-        {/* Mobile Header */}
+        
         <header className="bg-white shadow-sm p-4 flex justify-between items-center border-b border-slate-100 md:hidden">
           <h1 className="font-black text-emerald-800 uppercase tracking-tight text-sm">Appointment Status</h1>
           <button onClick={() => navigate("/")} className="text-xs font-bold text-red-600">EXIT</button>
         </header>
 
-        {/* Mobile Horizontal Menu */}
+        
         <nav className="md:hidden bg-white border-b flex overflow-x-auto p-2 gap-2 scrollbar-hide">
           {navItems.map((item) => (
             <button
@@ -83,12 +83,12 @@ export default function AppointmentStatus() {
           ))}
         </nav>
 
-        {/* Table/List Content */}
+        
         <main className="p-4 md:p-10 grow">
           <div className="max-w-5xl mx-auto">
             <h2 className="text-2xl font-black text-slate-800 mb-6 uppercase tracking-tight">Your Medical Visits</h2>
             
-            {/* Desktop Table View */}
+            
             <div className="hidden md:block bg-white rounded-3xl shadow-xl border border-slate-100 overflow-hidden">
               <table className="w-full text-left border-collapse">
                 <thead className="bg-slate-50 border-b border-slate-100">
@@ -124,7 +124,7 @@ export default function AppointmentStatus() {
               </table>
             </div>
 
-            {/* Mobile Card View */}
+            
             <div className="md:hidden space-y-4">
               {appointments.map((a) => (
                 <div key={a._id} className="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm">

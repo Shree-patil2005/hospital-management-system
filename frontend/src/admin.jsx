@@ -12,7 +12,7 @@ export default function Admin() {
   const handleLogin = (e) => {
     e.preventDefault();
 
-    // Fixed credentials
+    
     if (
       adminId === "2023" &&
       email === "shreepatil@gmail.com" &&
@@ -27,16 +27,16 @@ export default function Admin() {
   return (
     <div className="flex flex-col min-h-screen bg-linear-to-br from-blue-200 via-sky-100 to-indigo-200">
       
-      {/* Centered Header */}
+      
       <header className="bg-white/80 backdrop-blur-md shadow-sm py-4 px-6 sticky top-0 z-50 border-b border-blue-100 flex justify-center items-center">
         <h2 className="text-xl font-bold text-blue-800 text-center">
           Patil Bhandu Hospital
         </h2>
       </header>
 
-      {/* Main Content Area */}
+      
       <main className="relative grow flex items-center justify-center p-4 sm:p-6 overflow-hidden">
-        {/* Soft glowing shapes */}
+        
         <div className="absolute -top-32 -left-32 w-72 h-72 sm:w-96 sm:h-96 bg-blue-300/40 rounded-full blur-3xl"></div>
         <div className="absolute -bottom-32 -right-32 w-72 h-72 sm:w-96 sm:h-96 bg-indigo-300/40 rounded-full blur-3xl"></div>
 
@@ -97,7 +97,7 @@ export default function Admin() {
         </form>
       </main>
 
-      {/* Centered Footer */}
+      
       <footer className="bg-white/80 backdrop-blur-md py-6 px-4 border-t border-blue-100 flex flex-col items-center justify-center">
         <p className="text-gray-500 text-sm text-center">
           © 2025 Patil Bhandu Hospital Management System

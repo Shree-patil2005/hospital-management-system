@@ -45,7 +45,7 @@ export default function Patient() {
   return (
     <div className="flex flex-col min-h-screen bg-slate-50 font-sans text-slate-900">
       
-      {/* 1. Header (Consistent with MSRTC Style) */}
+      
       <header className="bg-emerald-700 text-white py-2 px-4 flex justify-between items-center text-[10px] md:text-xs font-bold uppercase tracking-widest shadow-md">
         <span>Emergency: 108 / 102</span>
         <div className="flex gap-4">
@@ -56,7 +56,7 @@ export default function Patient() {
         </div>
       </header>
 
-      {/* 2. Brand Section */}
+      
       <div className="bg-white py-4 px-6 flex justify-between items-center border-b shadow-sm">
         <div className="flex items-center gap-4">
           <div className="bg-emerald-100 p-2 rounded-lg">
@@ -73,10 +73,10 @@ export default function Patient() {
         </div>
       </div>
 
-      {/* 3. Main Content (The Grid System) */}
+      
       <main className="grow max-w-7xl mx-auto w-full p-4 md:p-10 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         
-        {/* LEFT COLUMN: The Form */}
+        
         <div className="order-1 md:order-1 flex justify-center md:justify-start">
           <div className="bg-white shadow-2xl border border-emerald-100 rounded-2xl overflow-hidden w-full max-w-md">
             <div className="bg-emerald-600 p-5 flex items-center gap-3">
@@ -145,7 +145,7 @@ export default function Patient() {
           </div>
         </div>
 
-        {/* RIGHT COLUMN: Info Panel (Mobile Responsive: disappears/stays below) */}
+        
         <div className="order-2 md:order-2 space-y-6">
           <div className="bg-emerald-50 p-6 md:p-10 rounded-3xl border border-emerald-100 relative overflow-hidden">
             <div className="absolute top-0 right-0 w-32 h-32 bg-emerald-200/30 rounded-full -mr-16 -mt-16"></div>
@@ -173,7 +173,7 @@ export default function Patient() {
 
       </main>
 
-      {/* 5. Footer */}
+      
       <footer className="bg-slate-900 text-white py-8 px-4 text-center">
         <p className="text-xs font-medium opacity-60">© 2025 Patil Bhandu Hospital Management System. All Rights Reserved.</p>
         <p className="text-[10px] text-emerald-500 mt-2 uppercase tracking-widest font-black">Quality Care Always</p>
