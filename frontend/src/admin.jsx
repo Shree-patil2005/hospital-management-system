@@ -30,7 +30,7 @@ export default function Admin() {
       
       <header className="bg-white/80 backdrop-blur-md shadow-sm py-4 px-6 sticky top-0 z-50 border-b border-blue-100 flex justify-center items-center">
         <h2 className="text-xl font-bold text-blue-800 text-center">
-          Patil Bhandu Hospital
+          Welcome to Bhakti  Hospital
         </h2>
       </header>
 

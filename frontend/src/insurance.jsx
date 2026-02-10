@@ -46,7 +46,7 @@ export default function Insurance() {
       
       <aside className="hidden md:flex w-72 bg-emerald-800 text-white p-6 shadow-2xl flex-col shrink-0">
         <div className="mb-10 text-center">
-          <h2 className="text-xl font-black uppercase tracking-tighter">Patil Bhandu</h2>
+          <h2 className="text-xl font-black uppercase tracking-tighter">Bhakti  Hospital</h2>
           <p className="text-[10px] text-emerald-300 font-bold uppercase tracking-widest">Healthcare Portal</p>
         </div>
         

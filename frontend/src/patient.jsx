@@ -66,7 +66,7 @@ export default function Patient() {
           </div>
           <div>
             <h1 className="text-emerald-800 font-black text-xl md:text-2xl leading-tight uppercase">
-              Patil Bhandu Hospital
+              Welcome to Bhakti  Hospital
             </h1>
             <p className="text-slate-500 text-xs md:text-sm font-bold">Comprehensive Patient Care & Management</p>
           </div>

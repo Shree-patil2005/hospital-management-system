@@ -29,7 +29,7 @@ function Home() {
       
       <header className="bg-blue-700 text-white p-5 text-center shadow-lg">
         <h1 className="text-xl md:text-2xl font-bold uppercase tracking-wider">
-          Patil Bhandu Hospital Management System
+          Welcome to Bhakti  Hospital
         </h1>
       </header>
 

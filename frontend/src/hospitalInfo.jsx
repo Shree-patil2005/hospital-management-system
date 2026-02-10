@@ -22,7 +22,7 @@ export default function HospitalInfo() {
       
       
       <header className="bg-blue-800 text-white py-3 px-6 shadow-md flex justify-between items-center">
-        <h2 className="font-bold uppercase tracking-wide">Patil Bhandu Hospital</h2>
+        <h2 className="font-bold uppercase tracking-wide">Welcome to Bhakti  Hospital</h2>
         <button onClick={() => navigate("/")} className="text-xs bg-white text-blue-800 px-3 py-1 rounded font-bold">BACK</button>
       </header>
 
