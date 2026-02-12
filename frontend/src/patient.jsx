@@ -175,7 +175,7 @@ export default function Patient() {
 
       
       <footer className="bg-slate-900 text-white py-8 px-4 text-center">
-        <p className="text-xs font-medium opacity-60">© 2025 Patil Bhandu Hospital Management System. All Rights Reserved.</p>
+        <p className="text-xs font-medium opacity-60">© 2025 Bhakti Hospital Management System. All Rights Reserved.</p>
         <p className="text-[10px] text-emerald-500 mt-2 uppercase tracking-widest font-black">Quality Care Always</p>
       </footer>
     </div>

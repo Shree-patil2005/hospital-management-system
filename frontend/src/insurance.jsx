@@ -161,7 +161,7 @@ export default function Insurance() {
         </main>
 
         <footer className="p-6 text-center text-[10px] text-slate-400 font-bold uppercase tracking-widest bg-white md:bg-transparent">
-          © 2025 Patil Bhandu Hospital | TPA & Insurance Wing
+          © 2025 Bhakti Hospital | TPA & Insurance Wing
         </footer>
       </div>
     </div>

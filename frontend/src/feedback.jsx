@@ -174,7 +174,7 @@ export default function Feedback() {
         </main>
 
         <footer className="p-6 text-center text-[10px] text-slate-400 font-bold uppercase tracking-widest">
-          © 2025 Patil Bhandu Hospital | Patient Relations
+          © 2025 Bhakti Bhandu Hospital | Patient Relations
         </footer>
       </div>
     </div>

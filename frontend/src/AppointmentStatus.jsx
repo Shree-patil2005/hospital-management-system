@@ -144,7 +144,7 @@ export default function AppointmentStatus() {
         </main>
 
         <footer className="p-6 text-center text-[10px] text-slate-400 font-bold uppercase tracking-widest">
-          © 2025 Patil Bhandu Hospital | Portal Version 1.0
+          © 2025 Bhakti Bhandu Hospital | Portal Version 1.0
         </footer>
       </div>
     </div>

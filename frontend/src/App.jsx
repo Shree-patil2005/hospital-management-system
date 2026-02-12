@@ -91,7 +91,7 @@ function Home() {
 
       
       <footer className="bg-blue-500 backdrop-blur-md p-4 text-center text-white-500 text-sm border-t border-gray-200">
-        © 2025 Patil Bhandu Hospital | Secure Management Portal
+        © 2025 Bhakti Hospital | Secure Management Portal
       </footer>
     </div>
   );

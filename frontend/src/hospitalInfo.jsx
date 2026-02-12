@@ -77,7 +77,7 @@ export default function HospitalInfo() {
 
       
       <footer className="bg-slate-900 text-white py-6 text-center text-xs">
-        © 2025 Patil Bhandu Hospital Management System | Serving with Excellence
+        © 2025 Bhakti Hospital Management System | Serving with Excellence
       </footer>
     </div>
   );

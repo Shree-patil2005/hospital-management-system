@@ -103,7 +103,7 @@ export default function AdminDashboard() {
 
       
       <footer className="py-6 text-center text-gray-400 text-[10px] uppercase font-bold">
-        Secure Admin Access — Patil Bhandu Hospital Management
+        Secure Admin Access — Bhakti Hospital Management
       </footer>
     </div>
   );
