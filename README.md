@@ -17,5 +17,7 @@ The project is deployed on netlify cloud:- https://serene-brioche-e56c03.netlify
 To run the project:-
 
 backend:- node server.js
+
+
 frontend:- npm run dev
                    
