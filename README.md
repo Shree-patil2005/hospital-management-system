@@ -3,7 +3,7 @@ Frontend :- React and tailwind css
 
 Backend:- Node.js and MongoDB Atlast for database
 
- Project has 5 module:-
+ Project has 6 module:-
 
  1) Admin module:- Admin can manage doctors, nurses, beds, ambulance, equipment.
  2) User module:- User can resister and login the system securely as all the credentials are stored as hashes.
