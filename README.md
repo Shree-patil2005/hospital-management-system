@@ -1,4 +1,6 @@
 Frontend :- React and tailwind css
+
+
 Backend:- Node.js and MongoDB Atlast for database
 
  Project has 5 module:-
